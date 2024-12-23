@@ -1,8 +1,8 @@
-[中文](https://gitee.com/WeCanSTU/Phoenix-AreisSDK/blob/master/README_CN.md) / [English](https://gitee.com/WeCanSTU/Phoenix-AreisSDK/blob/master/README.md)
+[中文](https://gitee.com/WeCanSTU/Phoenix-AriesSDK/blob/master/README_CN.md) / [English](https://gitee.com/WeCanSTU/Phoenix-AriesSDK/blob/master/README.md)
 
-# Phoenix-AreisSDK Porting Project
+# Phoenix-AriesSDK Porting Project
 
-This repository is a **porting project of the [AreisSDK](https://gitee.com/WeCanSTU/AriesSDK) software** based on the **[Phoenix PY32F002B core board](https://gitee.com/WeCanSTU/Phoenix)**, providing a complete software framework, including BootLoader and Application examples. It supports multiple toolchains, enabling developers to quickly achieve embedded project development, debugging, and deployment.
+This repository is a **porting project of the [AriesSDK](https://gitee.com/WeCanSTU/AriesSDK) software** based on the **[Phoenix PY32F002B core board](https://gitee.com/WeCanSTU/Phoenix)**, providing a complete software framework, including BootLoader and Application examples. It supports multiple toolchains, enabling developers to quickly achieve embedded project development, debugging, and deployment.
 
 ## Document Structure
 1. **Features**  
@@ -33,9 +33,9 @@ This repository is a **porting project of the [AreisSDK](https://gitee.com/WeCan
 
 This project provides the following core functionalities:
 
-### 1.1 AreisSDK Support
+### 1.1 AriesSDK Support
 
-- Provides **I2C interface porting** for the AreisSDK, allowing quick adaptation for the Phoenix core board.
+- Provides **I2C interface porting** for the AriesSDK, allowing quick adaptation for the Phoenix core board.
 - Supports multiple peripheral communication protocols, enabling developers to extend their peripheral functionalities.
 
 ### 1.2 BootLoader Example
@@ -62,8 +62,8 @@ This project provides the following core functionalities:
 Clone this repository and initialize the submodules using the following commands:
 
 ```bash
-git clone https://gitee.com/WeCanSTU/Phoenix-AreisSDK.git
-cd Phoenix-AreisSDK
+git clone https://gitee.com/WeCanSTU/Phoenix-AriesSDK.git
+cd Phoenix-AriesSDK
 git submodule update --init --recursive
 ```
 
@@ -125,7 +125,7 @@ Below is the explanation of the core project directories:
 │   └── Port                # Ported code directory
 ├── resource                # Other related resources
 └── Sdk                     # SDK and driver support
-    ├── AriesSDK            # AreisSDK code
+    ├── AriesSDK            # AriesSDK code
     └── Py32f002b           # PY32F002B platform support files
         ├── Documentation   # Documentation resources
         ├── Drivers         # Drivers
@@ -232,11 +232,11 @@ If you need to execute tasks manually, refer to the following commands:
 
   - Real-time device log capture on Windows:
 
-    ![win-log](https://gitee.com/WeCanSTU/Phoenix-AreisSDK/raw/master/resources/win-log.png)
+    ![win-log](https://gitee.com/WeCanSTU/Phoenix-AriesSDK/raw/master/resources/win-log.png)
 
   - Real-time device log capture on macOS:
 
-    ![macos-log](https://gitee.com/WeCanSTU/Phoenix-AreisSDK/raw/master/resources/macos-log.png)
+    ![macos-log](https://gitee.com/WeCanSTU/Phoenix-AriesSDK/raw/master/resources/macos-log.png)
 
 ## 6. Resources and Support
 

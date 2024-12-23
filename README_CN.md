@@ -1,8 +1,8 @@
-[中文](https://gitee.com/WeCanSTU/Phoenix-AreisSDK/blob/master/README_CN.md) / [English](https://gitee.com/WeCanSTU/Phoenix-AreisSDK/blob/master/README.md)
+[中文](https://gitee.com/WeCanSTU/Phoenix-AriesSDK/blob/master/README_CN.md) / [English](https://gitee.com/WeCanSTU/Phoenix-AriesSDK/blob/master/README.md)
 
-# Phoenix-AreisSDK 移植工程
+# Phoenix-AriesSDK 移植工程
 
-本仓库是基于 **[Phoenix 凤凰座 PY32F002B 核心板](https://gitee.com/WeCanSTU/Phoenix)** 的 **[AreisSDK](https://gitee.com/WeCanSTU/AriesSDK) 软件移植**工程，提供了完整的软件框架、BootLoader 和 Application 示例，支持多工具链开发，帮助开发者快速实现嵌入式项目开发、调试及部署。
+本仓库是基于 **[Phoenix 凤凰座 PY32F002B 核心板](https://gitee.com/WeCanSTU/Phoenix)** 的 **[AriesSDK](https://gitee.com/WeCanSTU/AriesSDK) 软件移植**工程，提供了完整的软件框架、BootLoader 和 Application 示例，支持多工具链开发，帮助开发者快速实现嵌入式项目开发、调试及部署。
 
 
 ## 文档结构
@@ -34,9 +34,9 @@
 
 本工程具备以下核心功能：
 
-### 1.1 AreisSDK 支持
+### 1.1 AriesSDK 支持
 
-- 提供 AreisSDK 的 **I2C 接口移植**，快速适配 Phoenix 核心板。
+- 提供 AriesSDK 的 **I2C 接口移植**，快速适配 Phoenix 核心板。
 - 支持多种外设通信协议，便于开发者扩展自己的外设功能。
 
 ### 1.2 BootLoader 示例
@@ -64,8 +64,8 @@
 通过以下命令克隆本仓库，并初始化子模块：
 
 ```bash
-git clone https://gitee.com/WeCanSTU/Phoenix-AreisSDK.git
-cd Phoenix-AreisSDK
+git clone https://gitee.com/WeCanSTU/Phoenix-AriesSDK.git
+cd Phoenix-AriesSDK
 git submodule update --init --recursive
 ```
 
@@ -127,7 +127,7 @@ git submodule update --init --recursive
 │   └── Port                # 移植代码目录
 ├── resource                # 其他相关资源
 └── Sdk                     # SDK 及驱动支持
-    ├── AriesSDK            # AreisSDK 代码
+    ├── AriesSDK            # AriesSDK 代码
     └── Py32f002b           # PY32F002B 平台支持包
         ├── Documentation   # 文档资料
         ├── Drivers         # 驱动程序
@@ -230,11 +230,11 @@ git submodule update --init --recursive
 
   - Windows上实时捕获的设备日志
 
-    ![win-log](https://gitee.com/WeCanSTU/Phoenix-AreisSDK/raw/master/resources/win-log.png)
+    ![win-log](https://gitee.com/WeCanSTU/Phoenix-AriesSDK/raw/master/resources/win-log.png)
 
   - MacOS上实时捕获的设备日志
 
-    ![macos-log](https://gitee.com/WeCanSTU/Phoenix-AreisSDK/raw/master/resources/macos-log.png)
+    ![macos-log](https://gitee.com/WeCanSTU/Phoenix-AriesSDK/raw/master/resources/macos-log.png)
 
 ## 6. 资源与支持
 
