@@ -1,0 +1,6 @@
+[submodule "Sdk/Py32f002b"]
+	path = Sdk/Py32f002b
+	url = https://github.com/OpenPuya/PY32F002B_Firmware.git
+[submodule "Sdk/AriesSDK"]
+	path = Sdk/AriesSDK
+	url = https://gitee.com/WeCanSTU/AriesSDK.git

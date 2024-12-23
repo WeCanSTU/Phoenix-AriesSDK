@@ -1,0 +1,5 @@
+reset
+erase
+loadfile ../PY32F002B/Boot/output/Boot-HAL.hex
+r 
+qc

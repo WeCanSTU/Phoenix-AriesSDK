@@ -1,0 +1,117 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build-PY32F002B-APP",
+            "type": "shell",
+            "command": "xmake",
+            "args": ["-b"],
+            "options": {
+                "cwd": "${workspaceFolder}/PY32F002B/App"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "silent"
+            }
+        },
+        {
+            "label": "Rebuild-PY32F002B-APP",
+            "type": "shell",
+            "command": "xmake",
+            "args": ["-r"],
+            "options": {
+                "cwd": "${workspaceFolder}/PY32F002B/App"
+            },
+            "group": {
+                "kind": "build"
+            },
+            "presentation": {
+                "reveal": "silent"
+            }
+        },
+        {
+            "label": "Download-PY32F002B-APP",
+            "type": "shell",
+            "command": "xmake",
+            "args": [
+                "lua",
+                "flash.lua",
+                "APP-HAL"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/PY32F002B/App"
+            },
+            "group": {
+                "kind": "build"
+            },
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": []
+        },        
+        {
+            "label": "Build-PY32F002B-BOOT-HAL",
+            "type": "shell",
+            "command": "xmake",
+            "args": [
+                "-b",
+                "Boot-HAL"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/PY32F002B/Boot"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "silent"
+            }
+        },
+        {
+            "label": "Rebuild-PY32F002B-BOOT-HAL",
+            "type": "shell",
+            "command": "xmake",
+            "args": [
+                "-r",
+                "Boot-HAL"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/PY32F002B/Boot"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "silent"
+            }
+        },
+        {
+            "label": "Download-PY32F002B-BOOT",
+            "type": "shell",
+            "command": "jlink",
+            "args": [
+                "-device", "PY32F002Bx5",
+                "-if", "SWD",
+                "-speed", "1000",
+                "-autoconnect", "1",
+                "-CommanderScript",
+                "PY32F002Bx5.jlink"
+            ],                
+            "options": {
+                "cwd": "${workspaceFolder}/.vscode"
+            },
+            "group": {
+                "kind": "build"
+            },
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": []
+        }        
+    ]
+}
