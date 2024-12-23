@@ -1,6 +1,6 @@
 # Phoenix-AreisSDK Porting Project
 
-This repository is a **porting project of the AreisSDK software** based on the **Phoenix PY32F002B core board**, providing a complete software framework, including BootLoader and Application examples. It supports multiple toolchains, enabling developers to quickly achieve embedded project development, debugging, and deployment.
+This repository is a **porting project of the [AreisSDK](https://gitee.com/WeCanSTU/AriesSDK) software** based on the **[Phoenix PY32F002B core board](https://gitee.com/WeCanSTU/Phoenix)**, providing a complete software framework, including BootLoader and Application examples. It supports multiple toolchains, enabling developers to quickly achieve embedded project development, debugging, and deployment.
 
 ## Document Structure
 1. **Features**  

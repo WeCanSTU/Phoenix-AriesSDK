@@ -1,6 +1,6 @@
 # Phoenix-AreisSDK 移植工程
 
-本仓库是基于 **Phoenix 凤凰座 PY32F002B 核心板** 的 **AreisSDK 软件移植**工程，提供了完整的软件框架、BootLoader 和 Application 示例，支持多工具链开发，帮助开发者快速实现嵌入式项目开发、调试及部署。
+本仓库是基于 **[Phoenix 凤凰座 PY32F002B 核心板](https://gitee.com/WeCanSTU/Phoenix)** 的 **[AreisSDK](https://gitee.com/WeCanSTU/AriesSDK) 软件移植**工程，提供了完整的软件框架、BootLoader 和 Application 示例，支持多工具链开发，帮助开发者快速实现嵌入式项目开发、调试及部署。
 
 
 ## 文档结构
