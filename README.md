@@ -1,8 +1,8 @@
-[中文](https://gitee.com/WeCanSTU/Phoenix-AriesSDK/blob/master/README_CN.md) / [English](https://gitee.com/WeCanSTU/Phoenix-AriesSDK/blob/master/README.md)
+[中文](https://github.com/WeCanSTU/Phoenix-AriesSDK/blob/master/README_CN.md) / [English](https://github.com/WeCanSTU/Phoenix-AriesSDK/blob/master/README.md)
 
 # Phoenix-AriesSDK Porting Project
 
-This repository is a **porting project of the [AriesSDK](https://gitee.com/WeCanSTU/AriesSDK) software** based on the **[Phoenix PY32F002B core board](https://gitee.com/WeCanSTU/Phoenix)**, providing a complete software framework, including BootLoader and Application examples. It supports multiple toolchains, enabling developers to quickly achieve embedded project development, debugging, and deployment.
+This repository is a **porting project of the [AriesSDK](https://github.com/WeCanSTU/AriesSDK) software** based on the **[Phoenix PY32F002B core board](https://github.com/WeCanSTU/Phoenix)**, providing a complete software framework, including BootLoader and Application examples. It supports multiple toolchains, enabling developers to quickly achieve embedded project development, debugging, and deployment.
 
 ## Document Structure
 1. **Features**  
@@ -62,7 +62,7 @@ This project provides the following core functionalities:
 Clone this repository and initialize the submodules using the following commands:
 
 ```bash
-git clone https://gitee.com/WeCanSTU/Phoenix-AriesSDK.git
+git clone https://github.com/WeCanSTU/Phoenix-AriesSDK.git
 cd Phoenix-AriesSDK
 git submodule update --init --recursive
 ```
@@ -86,7 +86,7 @@ git submodule update --init --recursive
 
 1. Install prerequisites  
    - **Keil MDK**: As mentioned above, ensure it is installed.  
-   - **TechSync Tool**: Install the [TechSync tool](https://gitee.com/WeCanSTU/install) to manage firmware flashing and log debugging.  
+   - **TechSync Tool**: Install the [TechSync tool](https://github.com/WeCanSTU/install) to manage firmware flashing and log debugging.  
    - **VSCode**: Download [VSCode](https://code.visualstudio.com/) and install the **EIDE (Embedded IDE For VSCode)** plugin.
 
 2. Open the EIDE project  
@@ -232,18 +232,22 @@ If you need to execute tasks manually, refer to the following commands:
 
   - Real-time device log capture on Windows:
 
-    ![win-log](https://gitee.com/WeCanSTU/Phoenix-AriesSDK/raw/master/resources/win-log.png)
+    ![win-log](https://github.com/WeCanSTU/Phoenix-AriesSDK/raw/master/resources/win-log.png)
 
   - Real-time device log capture on macOS:
 
-    ![macos-log](https://gitee.com/WeCanSTU/Phoenix-AriesSDK/raw/master/resources/macos-log.png)
+    ![macos-log](https://github.com/WeCanSTU/Phoenix-AriesSDK/raw/master/resources/macos-log.png)
 
 ## 6. Resources and Support
 
-- **Forum**: [AriesSDK Forum](https://gitee.com/link?target=https%3A%2F%2Fforum.umetav.cn%2Ft%2Faries-sdk)
-  - **Hours**: Open daily from 8:00 AM to 1:00 AM (Beijing Time).
+- **Forum**: [AriesSDK Forum](https://forum.umetav.cn/t/aries-sdk)
+  - **Operating Hours**: Daily from 8:00 AM to 1:00 AM Beijing Time.
+  
 - **QQ Group**: 786239575
-- **Technical Support Email**: [tech@umetav.cn](https://gitee.com/link?target=mailto%3Atech@umetav.cn)
+
+- **Technical Support Email**: [tech@umetav.cn](mailto:tech@umetav.cn)
+
+Feel free to contact us through these channels for more information or technical support regarding AriesSDK.
 
 
 
