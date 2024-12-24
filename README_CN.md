@@ -1,8 +1,8 @@
-[中文](https://gitee.com/WeCanSTU/Phoenix-AriesSDK/blob/master/README_CN.md) / [English](https://gitee.com/WeCanSTU/Phoenix-AriesSDK/blob/master/README.md)
+[中文](https://github.com/WeCanSTU/Phoenix-AriesSDK/blob/master/README_CN.md) / [English](https://github.com/WeCanSTU/Phoenix-AriesSDK/blob/master/README.md)
 
 # Phoenix-AriesSDK 移植工程
 
-本仓库是基于 **[Phoenix 凤凰座 PY32F002B 核心板](https://gitee.com/WeCanSTU/Phoenix)** 的 **[AriesSDK](https://gitee.com/WeCanSTU/AriesSDK) 软件移植**工程，提供了完整的软件框架、BootLoader 和 Application 示例，支持多工具链开发，帮助开发者快速实现嵌入式项目开发、调试及部署。
+本仓库是基于 **[Phoenix 凤凰座 PY32F002B 核心板](https://GitHub.com/WeCanSTU/Phoenix)** 的 **[AriesSDK](https://GitHub.com/WeCanSTU/AriesSDK) 软件移植**工程，提供了完整的软件框架、BootLoader 和 Application 示例，支持多工具链开发，帮助开发者快速实现嵌入式项目开发、调试及部署。
 
 
 ## 文档结构
@@ -64,7 +64,7 @@
 通过以下命令克隆本仓库，并初始化子模块：
 
 ```bash
-git clone https://gitee.com/WeCanSTU/Phoenix-AriesSDK.git
+git clone https://GitHub.com/WeCanSTU/Phoenix-AriesSDK.git
 cd Phoenix-AriesSDK
 git submodule update --init --recursive
 ```
@@ -88,7 +88,7 @@ git submodule update --init --recursive
 
 1. 安装前置工具  
    - **Keil MDK**：同上，确保安装完成。  
-   - **TechSync 工具**：安装 [TechSync 工具](https://gitee.com/WeCanSTU/install)，用于固件烧录和日志调试。  
+   - **TechSync 工具**：安装 [TechSync 工具](https://GitHub.com/WeCanSTU/install)，用于固件烧录和日志调试。  
    - **VSCode**：下载 [VSCode](https://code.visualstudio.com/)，并安装插件 **EIDE（Embedded IDE For VSCode）**。
 
 2. 打开 EIDE 工程  
@@ -230,18 +230,18 @@ git submodule update --init --recursive
 
   - Windows上实时捕获的设备日志
 
-    ![win-log](https://gitee.com/WeCanSTU/Phoenix-AriesSDK/raw/master/resources/win-log.png)
+    ![win-log](https://GitHub.com/WeCanSTU/Phoenix-AriesSDK/raw/master/resources/win-log.png)
 
   - MacOS上实时捕获的设备日志
 
-    ![macos-log](https://gitee.com/WeCanSTU/Phoenix-AriesSDK/raw/master/resources/macos-log.png)
+    ![macos-log](https://GitHub.com/WeCanSTU/Phoenix-AriesSDK/raw/master/resources/macos-log.png)
 
 ## 6. 资源与支持
 
-- **论坛**: [AriesSDK Forum](https://gitee.com/link?target=https%3A%2F%2Fforum.umetav.cn%2Ft%2Faries-sdk)
+- **论坛**: [AriesSDK Forum](https://forum.umetav.cn/t/aries-sdk) 
   - **开放时间**: 北京时间每日早上8点到凌晨1点。
 - **QQ群**: 786239575
-- **技术支持邮箱**: [tech@umetav.cn](https://gitee.com/link?target=mailto%3Atech@umetav.cn)
+- **技术支持邮箱**: [tech@umetav.cn](mailto:tech@umetav.cn)
 
 ## 7. 贡献指南
 
